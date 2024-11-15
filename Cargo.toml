@@ -1,7 +1,17 @@
 [package]
-name = "rust_crypto"
+name = "rust_coinlive"
 version = "0.1.0"
 edition = "2021"
+# Add description and license metadata
+description = "A short description of what your package does"
+license = "MIT"
+
+# Optional: Add authors if needed
+authors = ["Thien Tran<fcduythien@gmail.com"]
+
+# Optional: Add other metadata
+repository = "https://github.com/duythien/rust_coinlive"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5.20", features = ["derive"] }
